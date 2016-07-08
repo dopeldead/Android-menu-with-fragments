@@ -53,12 +53,16 @@
     <Compile Include="Fragments\FragmentGreen.cs" />
     <Compile Include="Fragments\FragmentRed.cs" />
     <Compile Include="GestureListner.cs" />
-    <Compile Include="MainActivity.cs" />
+    <Compile Include="LogInActivity.cs" />
+    <Compile Include="ActivityWithFragments.cs" />
     <Compile Include="MenuListAdapter.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidResource Include="Resources\layout\LogInLayout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <AndroidResource Include="Resources\layout\BlueLayout.axml">
